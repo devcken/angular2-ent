@@ -1,0 +1,8 @@
+<main>
+    <ent-root [children]="treeData" [options]="treeOption">
+        <template #togglerTemplate let-depth="depth" let-depthRange="depthRange" let-unfolded="unfolded" let-hasChildren="hasChildren">
+            <span *ngFor="let item of depthRange">&nbsp;|-</span>
+            <span *ngIf="hasChildren" [textContent]="unfolded ? '[-]' : '[+]'"></span>
+        </template>
+    </ent-root>
+</main>

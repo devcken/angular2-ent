@@ -1,0 +1,42 @@
+{
+  "name": "angular2-ent",
+  "version": "0.0.1",
+  "description": "A tree-view based on Angular2",
+  "author": "Leejun Choi <devcken@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dist": "tsc --outDir dist",
+    "build": "tsc -w",
+    "test": "karma start",
+    "postinstall": "typings install"
+  },
+  "main": "build/index.js",
+  "peerDependencies": {
+    "@angular/common": "2.0.1",
+    "@angular/compiler": "2.0.1",
+    "@angular/core": "2.0.1",
+    "@angular/http": "2.0.1",
+    "@angular/platform-browser": "2.0.1",
+    "@angular/platform-browser-dynamic": "2.0.1",
+    "zone.js": "^0.6.23"
+  },
+  "dependencies": {
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.0-beta.12"
+  },
+  "devDependencies": {
+    "@angular/common": "^2.0.1",
+    "@angular/compiler": "^2.0.1",
+    "@angular/core": "^2.0.1",
+    "@angular/http": "^2.0.1",
+    "@angular/platform-browser": "^2.0.1",
+    "@angular/platform-browser-dynamic": "^2.0.1",
+    "@types/core-js": "0.9.34",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-jasmine": "^1.0.2",
+    "typescript": "^2.0.2",
+    "typings": "^1.3.2",
+    "zone.js": "^0.6.23"
+  }
+}
